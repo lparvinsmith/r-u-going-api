@@ -1,4 +1,10 @@
 class User < ActiveRecord::Base
+  # has_many :events, inverse_of: :user
+  # has_many :created_events, inverse_of: :user, class_name: Events
+
+  has_many :events, through: :confirmations
+  # has_many :confirmations # not necessary?
+
   has_secure_password
   before_create :set_token
 
