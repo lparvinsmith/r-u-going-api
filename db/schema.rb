@@ -40,11 +40,11 @@ ActiveRecord::Schema.define(version: 20150804235656) do
   add_index "events", ["user_id"], name: "index_events_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                        null: false
-    t.string   "password_digest",              null: false
-    t.datetime "created_at",                   null: false
-    t.datetime "updated_at",                   null: false
-    t.string   "token",           default: "", null: false
+    t.string   "email",           null: false
+    t.string   "password_digest", null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "token",           null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
