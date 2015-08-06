@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   post '/login' => 'users#login'
   resources :users, except: [:new, :edit]
   resources :events, except: [:new, :edit]
+  resources :confirmations, except: [:new, :edit]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
