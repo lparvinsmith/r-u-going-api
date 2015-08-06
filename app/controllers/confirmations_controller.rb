@@ -12,8 +12,8 @@ class ConfirmationsController < ApplicationController
   end
 
   def create
-    confirmation = Confirmation.create(confirmation_params)
-    # confirmation.created_by = current_user # necessary?
+    confirmation = Confirmation.new(confirmation_params)
+    current_user.confirmations << confirmation
     if confirmation.save
       render json: confirmation
     else
