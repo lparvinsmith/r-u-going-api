@@ -13,7 +13,7 @@
 end
 
 events = Event.create([
-  {occurs_at: "2015-07-31", title:"RLLY COOL EVENT GUYS", venue:"some dev shop", description:"you'll like it tho", link:"here's a link", user_id:1},
-  {occurs_at: "2015-07-31", title:"SRLSY COOL EVENT", venue:"some dev shop", description:"srsly tho the best event", link:"here's a link", user_id:2},
-  {occurs_at: "2015-07-31", title:"LOTSA FREE SHIT", venue:"better dev shop", description:"like pizza n beer n tshirts n shit", link:"here's a link", user_id:3}
+  {occurs_at: "2015-08-07 13:00", title:"Project Presentations", venue:"GA", description:"WDI students present their second projects", link:"https://generalassemb.ly/boston", user_id:1},
+  {occurs_at: "2015-08-11 19:00", title:"Code For Boston: Hack Night", venue:"Cambridge Innovation Center", description:"Work on and discuss civic tech projects", link:"http://www.meetup.com/Code-for-Boston/events/223843532/", user_id:2},
+  {occurs_at: "2015-08-19 18:15", title:"Women's Coding Collective: Project Night", venue:"Cambridge Innovation Center", description:"Bring your laptop, current project(s) and prepare to make some progress!", link:"http://thewc.co/?src=ubms", user_id:3}
 ]);
