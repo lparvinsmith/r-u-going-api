@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   post '/register' => 'users#create'
   post '/login' => 'users#login'
+  get '/events/count' => 'events#event_count'
   resources :users, except: [:new, :edit]
   resources :events, except: [:new, :edit]
   resources :confirmations, except: [:new, :edit]

@@ -29,6 +29,10 @@ class EventsController < ApplicationController
     head :ok
   end
 
+  def event_count
+    render json: current_user.events.count
+  end
+
   private
   def event_params
     params.require(:event).permit(:occurs_at, :title, :venue, :user_id, :description, :link)
