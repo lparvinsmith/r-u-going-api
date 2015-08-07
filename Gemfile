@@ -18,6 +18,11 @@ gem 'rack-cors', require: 'rack/cors'
 
  gem 'byebug'
 
+group :production do
+     gem 'rails_12factor'
+     gem 'puma'
+end
+
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
