@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   has_many :created_events, inverse_of: :created_by, class_name: Event
 
   has_many :events, through: :confirmations
-  has_many :confirmations # not necessary?
+  has_many :confirmations
 
   has_secure_password
   before_create :set_token

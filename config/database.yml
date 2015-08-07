@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: project2-api_production
-  username: project2-api
-  password: <%= ENV['PROJECT2-API_DATABASE_PASSWORD'] %>
