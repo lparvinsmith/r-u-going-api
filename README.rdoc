@@ -1,28 +1,9 @@
-== README
+== Project 2 - R U Going?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Uses Ruby on Rails with gems such as rack-cors --to connect to front end-- and bcrypt --for authentication.
 
-Things you may want to cover:
+Deployed app: http://lparvinsmith.github.io/Project-2-front-end/
+Front-end repo: https://github.com/lparvinsmith/Project-2-front-end
 
-* Ruby version
+Entity relationship diagram: https://github.com/lparvinsmith/project2-api/blob/master/ERD-project-2.pdf
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
