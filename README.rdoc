@@ -2,8 +2,11 @@
 
 Uses Ruby on Rails with gems such as rack-cors --to connect to front end-- and bcrypt --for authentication.
 
-Deployed app: http://lparvinsmith.github.io/Project-2-front-end/
-Front-end repo: https://github.com/lparvinsmith/Project-2-front-end
+Deployed app: http://lparvinsmith.github.io/R_U_Going
+
+
+Front-end repo: https://github.com/lparvinsmith/R_U_Going
+
 
 Entity relationship diagram: https://github.com/lparvinsmith/project2-api/blob/master/ERD-project-2.pdf
 
